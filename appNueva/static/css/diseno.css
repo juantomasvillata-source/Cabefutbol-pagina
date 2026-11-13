@@ -2,43 +2,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 
-body {
- background-color:aqua;
- background-size: cover;
- background-attachment: fixed;
- backdrop-filter: blur(5px);
-}
+    body {
+     background-color:rgb(138, 191, 130);
+     background-size: cover;
+     background-attachment: fixed;
+     backdrop-filter: blur(5px);
+     color: rgb(0, 0, 0);
+     
+    }
 
-.sobre-juego img {
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 130px;
-    height: auto;
-}
+    body img {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: auto;
+    }
+    
+    .sobre-juego img {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        height: auto;
+    }
 
-h1 {
-    color: #ffffff;
-    text-align: center;
-    font-style: italic;
-    font-family: 'Climate Crisis', cursive;
-    padding: 20px;
-}
+    h1 {
+        color: #ffffff;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Climate Crisis', cursive;
+        padding: 10px;
+    }
+    
+    p {
+      font-family: "Michroma", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    footer {
+        font-size: 18px;
+        width: 100%;
+        background-color: rgba(14, 93, 0, 0.8);
+        padding: 20px;
+    }
 
-p {
-  font-family: "Michroma", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  padding: 20px;
-}
+    .nav {
+      background-color: rgba(14, 93, 0, 0.8);
+    }
 
-footer {
-    font-size: 18px;
-    width: 100%;
-    background-color: rgba(192, 83, 83, 0.8);
-    padding: 20px;
-}
+    .encabezado {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;    
+      justify-content: center;
+      text-align: center;     
+      padding: 20px 0;       
+  }
+
+  .encabezado img {
+    margin-bottom: 10px;    
+  }
+  
 
 
